@@ -146,3 +146,8 @@ footer{
 #center{
     text-align: center;
 }
+@media (min-width:320px){
+    body{
+            width:100vw;
+        }
+}

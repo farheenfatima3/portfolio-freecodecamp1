@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%
+}
+:root{
+    --primary-color:#D97706;
+    --welcome-color: #1F2937;
+    --secondary-color:#065F46;
+}
+
+
+#profile-link{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+    font-size: 25px;
+}
+#navbar ul{
+  display:flex; 
+  flex-direction: row;
+  justify-content: flex-end;  
+}
+#profile-link{
+    padding:2rem;
+    color:white;
+    font-size:20px;
+}
+#navbar{ 
+    background-color: var(--primary-color);
+    padding:1rem 0rem;
+    width:100%;
+    position:fixed;
+}
+
+#welcome-section{
+    background-color: var(--welcome-color);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+h1{
+    font-size:60px;
+    color:white;
+    margin-block-start:4em;
+    margin-block-end:0em;
+    
+}
+#welcome-section span{
+    font-size:30px;
+    font-style: italic;
+    color:var(--primary-color);
+}
+
+#projects header{
+    font-size:40px;
+    color:white;
+    text-align:center;
+    text-decoration: underline;
+
+}
+#projects{
+    background-color:var(--secondary-color);
+    width:100vw;
+    height:100vh;
+}
+
+#down-section{
+    background-color:var(--welcome-color);
+    text-align:center;
+    color:white;
+    width:100vw;
+    height:100vh;
+    padding-top:70px;
+   
+}
+#down-section header{
+    font-size:60px;
+    padding-top:150px;
+}
+#down-section span{
+    font-size:20px;
+    font-style: italic;
+}
+#down-section .links{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    position:relative;
+    padding-top:1rem;
+}
+footer{
+    display:flex;
+    background-color:var(--welcome-color);
+    border-top:3px solid var(--primary-color);
+    color:white;
+    padding:50px;
+    justify-content: space-around;
+    width:100vw;
+    font-size:20px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:300px 300px;
+    margin:40px auto;
+    grid-gap:2rem;
+    width:100%;
+    max-width:1200px;
+    margin-bottom:6rem;
+    
+}
+#project-image{
+    height:calc(100%-10%);
+    width:100%;
+    object-fit:cover;    
+}
+
+#project-title{
+    text-decoration: none;
+    background-color: gray;
+    box-shadow:1px 1px 2px rgb(0,0,0.5);
+    border-radius:2px;
+}
+.code {
+    color:gray;
+    transition: color 0.3s ease-out;
+}
+.project-name{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size:2rem;
+    text-align: center;
+}
+#button{
+    border:1px solid black;
+    background-color: black;
+    padding:1rem;
+    color:white;
+   border-radius:0.5rem;
+   text-decoration: none;
+}
+#center{
+    text-align: center;
+}
